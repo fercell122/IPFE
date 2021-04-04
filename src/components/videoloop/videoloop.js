@@ -1,5 +1,5 @@
 import React from "react"
-import videoloop from "../../assets/video/fl.mp4"
+
 
 
 export default function videlop(){
@@ -11,7 +11,7 @@ export default function videlop(){
             "width":"100%",
             "height":"100%",
              }}>
-            <source src={videoloop} type="video/mp4"/>
+            <source src={process.env.PUBLIC_URL + '/video/fl.mp4'} type="video/mp4"/>
         </video>
     )
 }
