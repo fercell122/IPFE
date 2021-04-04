@@ -23,7 +23,7 @@ export default function Landing(){
               <div className={classes.brand}>
                 <h1 className={classes.title}>Initial Project Front-End .</h1>
                 <h3 className={classes.subtitle}>
-                  A Bussiness site based on React.
+                  A Business site based on React.
                 </h3>
                 
               </div>
